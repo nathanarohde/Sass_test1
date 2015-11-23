@@ -1,0 +1,36 @@
+.blue {
+  border: #000066 solid 2px;
+  height: 100px;
+  background: blue; }
+  .blue p {
+    color: yellow; }
+
+.green {
+  border: black solid 2px;
+  height: 100px;
+  background: green; }
+  .green p {
+    color: purple; }
+
+.red {
+  border: #660000 solid 2px;
+  height: 100px;
+  background: red; }
+  .red p {
+    color: cyan; }
+
+.purple {
+  border: black solid 2px;
+  height: 100px;
+  background: purple; }
+  .purple p {
+    color: green; }
+
+.orange {
+  border: #664200 solid 2px;
+  height: 100px;
+  background: orange; }
+  .orange p {
+    color: #005aff; }
+
+/*# sourceMappingURL=styles.css.map */

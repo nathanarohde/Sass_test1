@@ -1,0 +1,19 @@
+$height:100px;
+$width:100px;
+
+@mixin boxes($color) {
+	.#{$color} {
+		border:darken($color, 30%) solid 2px;
+		height:$height;
+		background:#{$color};
+		p {
+			color:complement($color);
+		}
+	}
+}
+
+@include boxes(blue);
+@include boxes(green);
+@include boxes(red);
+@include boxes(purple);
+@include boxes(orange);
